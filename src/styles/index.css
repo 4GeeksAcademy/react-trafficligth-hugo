@@ -1,11 +1,67 @@
-/* 
+.tube{
+    width: 20px;
+    height: 70px;
+    background-color: black;
+    margin: 0 auto;
+}
+.ligths{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 200px;
+    height: 520px;
+    background-color: black;
+    margin: 0 auto;
+}
+.ligthiden{
+    
+    justify-content: center;
+    justify-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    align-items: center;
+   
+}
 
-    You can write your own styles here...
+.red{
+    display: flex;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.yellow{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.green{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.purple{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    filter: drop-shadow(-4px -3px 49px white);
+   
+}
+
+.redbtn{
+    background-color: black;
+}
+
